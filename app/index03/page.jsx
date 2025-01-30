@@ -6,7 +6,8 @@ import styles from '@/app/page.module.css';
 import { client } from '@/lib/client';
 import { trcLev } from '@/lib/constants';
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-//const trcLev = 1;
+export const dynamic='force-dynamic';//Added on 2025_1_30.
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 const crlBule = {color:'blue'};
 const clrGreen1 = {color:'green', fontSize:'20px'};
 const sty3 = {margin: '2ex'};
