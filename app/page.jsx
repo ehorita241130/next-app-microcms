@@ -20,7 +20,7 @@ export default async function Home(){
       <h2 style={clrBlue}>Links：</h2>
       <ul style={sty2}>
         <li style={sty2}>
-        <Link href='/index00' style={clrGreen1}>→Original Next.js to-page</Link>
+        <Link href='/index00' style={clrGreen1}>→Original Next.js top-page</Link>
         </li>
         <li style={sty2}>
           <Link href='/index01' style={clrGreen1}>→microCMS test page, No.1</Link>
@@ -30,6 +30,15 @@ export default async function Home(){
         </li>
         <li style={sty2}>
           <Link href='/index03' style={clrGreen1}>→microCMS test page, No.3</Link>
+        </li>
+        <li style={sty2}>
+          <Link href='/index04' style={clrGreen1}>→microCMS test page, No.4</Link>
+        </li>
+        <li style={sty2}>
+          <Link href='/index05' style={clrGreen1}>→microCMS test page, No.5</Link>
+        </li>
+        <li style={sty2}>
+          <Link href='/index06' style={clrGreen1}>→microCMS test page, No.6</Link>
         </li>
       </ul>
     </div>

@@ -3,7 +3,7 @@ import Link from 'next/link';//Added.
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 //**********************************************************************
-const crlBule = {color:'blue'};
+const crlBlue = {color:'blue'};
 const clrGreen1 = {color:'green', fontSize:'20px'};
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 export default function Home(){
@@ -39,7 +39,7 @@ export default function Home(){
     <div className={styles.page}>
       <main className={styles.main}>
         <Link href='/' style={clrGreen1}>←Top-page</Link>
-        <h1 style={crlBule}>index00</h1>
+        <h1 style={crlBlue}>index00</h1>
         {im1}
         <ol>
           <li>Get started by editing <code>app/page.tsx</code>.</li>
